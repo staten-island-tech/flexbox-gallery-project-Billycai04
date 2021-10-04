@@ -5,22 +5,30 @@ body,
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
+  background-color: plum;
+}
+.title {
 }
 .parent {
   font-size: 30px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .child {
-  border: 1px solid red;
   width: 28%;
+  height: 500px;
+  border-radius: 15px;
+  background-color: ivory;
 }
 .child-1 {
   border: 3px solid green;
 }
 .child-2 {
   border: 3px solid yellow;
+  height: 500px;
 }
 .child-3 {
   border: 3px solid blue;
+  height: 500px;
 }
