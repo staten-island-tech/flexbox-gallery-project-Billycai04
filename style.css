@@ -8,27 +8,46 @@ body,
   background-color: plum;
 }
 .title {
+  font-size: 75px;
+  text-align: center;
+  color: slateblue;
+  font-weight: bold;
 }
 .parent {
   font-size: 30px;
+  text-align: center;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
+  margin-top: 25px;
 }
 .child {
-  width: 28%;
+  width: 10%;
   height: 500px;
   border-radius: 15px;
-  background-color: ivory;
+  border: 3px solid red;
 }
 .child-1 {
-  border: 3px solid green;
+  background-image: url(img/Jett.jpg);
+  background-size: 200px;
+  background-position: center;
 }
 .child-2 {
-  border: 3px solid yellow;
-  height: 500px;
 }
 .child-3 {
-  border: 3px solid blue;
-  height: 500px;
+}
+.child-4 {
+  background-image: url(img/Phoenix.jpg);
+  background-size: 200px;
+  background-position: center;
+}
+.child-5 {
+}
+.child-6 {
+}
+.child-7 {
+}
+.child-8 {
+}
+.child-9 {
 }
