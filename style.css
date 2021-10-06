@@ -5,21 +5,28 @@ body,
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
-  background-color: plum;
+  background-color: lightsteelblue;
 }
 .title {
   font-size: 75px;
   text-align: center;
   color: slateblue;
   font-weight: bold;
+  font-family: "Gemunu Libre", sans-serif;
 }
 .parent {
   font-size: 30px;
+  color: gold;
+  font-weight: bold;
   text-align: center;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   margin-top: 25px;
+}
+.quote {
+  font-size: 20px;
+  margin-top: 300px;
 }
 .child {
   width: 10%;
@@ -29,25 +36,46 @@ body,
 }
 .child-1 {
   background-image: url(img/Jett.jpg);
-  background-size: 200px;
+  background-size: 210px;
   background-position: center;
 }
 .child-2 {
+  background-image: url(img/Brimstone.jpg);
+  background-size: 210px;
+  background-position: center;
 }
 .child-3 {
+  background-image: url(img/Sage.jpg);
+  background-size: 210px;
+  background-position: center;
 }
 .child-4 {
   background-image: url(img/Phoenix.jpg);
-  background-size: 200px;
+  background-size: 210px;
   background-position: center;
 }
 .child-5 {
+  background-image: url(img/Omen.jpg);
+  background-size: 210px;
+  background-position: center;
 }
 .child-6 {
+  background-image: url(img/Cypher.jpg);
+  background-size: 210px;
+  background-position: center;
 }
 .child-7 {
+  background-image: url(img/Raze.jpg);
+  background-size: 210px;
+  background-position: center;
 }
 .child-8 {
+  background-image: url(img/Viper.jpg);
+  background-size: 210px;
+  background-position: center;
 }
 .child-9 {
+  background-image: url(img/Killjoy.jpg);
+  background-size: 210px;
+  background-position: center;
 }
