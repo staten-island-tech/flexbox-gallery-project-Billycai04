@@ -7,7 +7,7 @@ body,
   font-size: 62.5%;
 }
 body {
-  background-color: black;
+  background-color: lightskyblue;
 }
 .title {
   font-size: 7.5rem;
@@ -24,7 +24,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 .quote {
   font-size: 2rem;
@@ -34,8 +34,15 @@ body {
   width: 10%;
   height: 495px;
   border-radius: 15px;
-  border: 1px solid crimson;
-  box-shadow: 12px 12px 2px 1px red;
+  border: 5px solid crimson;
+  box-shadow: 12px 12px 2px 1px gray;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.child:hover {
+  transform: scale(1.1);
+  outline: 0.5rem solid gold;
+  outline-offset: 0.2rem;
 }
 .child-1 {
   background-image: url(img/Jett.jpg);
