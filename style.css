@@ -10,11 +10,17 @@ body {
   background-color: lightskyblue;
 }
 .title {
+  margin-top: 20px;
   font-size: 7.5rem;
   text-align: center;
   color: red;
   font-weight: bold;
   font-family: "Gemunu Libre", sans-serif;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.title:hover {
+  transform: skew(25deg, 0deg);
 }
 .parent {
   font-size: 3.5rem;
@@ -43,6 +49,10 @@ body {
   transform: scale(1.1);
   outline: 0.5rem solid gold;
   outline-offset: 0.2rem;
+}
+.all:hover .child:not(:hover) {
+  transform: scale(0.8);
+  opacity: 0.3;
 }
 .child-1 {
   background-image: url(img/Jett.jpg);
