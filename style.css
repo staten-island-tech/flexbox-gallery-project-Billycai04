@@ -19,12 +19,25 @@ body {
     opacity: 1;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 425px) {
   body {
     background-color: mediumpurple;
   }
   .parent {
     flex-direction: column;
+  }
+}
+@media screen and (min-width: 426px) and (max-width: 768px){
+  body {
+    background-color: paleturquoise;
+  }
+  .parent {
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+  body {
+    background-color: darkturquoise;
   }
 }
 .title {
@@ -59,13 +72,17 @@ body {
   font-family: "Lato", sans-serif;
 }
 .child {
-  width: 10%;
-  height: 49.5rem;
+  width: 16%;
+  height: 63rem;
   border-radius: 15px;
   border: 5px solid crimson;
   box-shadow: 12px 12px 2px 1px gray;
   -webkit-transition: all 0.2s;
   transition: all 0.5s;
+  background-size: 28rem;
+  background-position: center;
+  background-position-y: -10px;
+ 
 }
 .child:hover {
   outline: 0.5rem solid gold;
@@ -77,81 +94,54 @@ body {
 }
 .child-1 {
   background-image: url(img/Jett.jpg);
-  background-size: 21.4rem;
-  background-position: cover;
-  background-position-y: -15px;
 }
 .child-1:hover {
   transform: skew(0deg, -10deg);
 }
 .child-2 {
   background-image: url(img/Brimstone.jpg);
-  background-size: 21.4rem;
-  background-position: cover;
-  background-position-y: -15px;
 }
 .child-2:hover {
   transform: rotate(1turn);
 }
 .child-3 {
   background-image: url(img/Sage.jpg);
-  background-size: 21.4rem;
-  background-position: cover;
-  background-position-y: -15px;
 }
 .child-3:hover {
   transform: skew(0deg, 10deg);
 }
 .child-4 {
   background-image: url(img/Phoenix.jpg);
-  background-size: 21.4rem;
-  background-position: center;
-  background-position-y: -15px;
 }
 .child-4:hover {
   transform: skew(0deg, -10deg);
 }
 .child-5 {
   background-image: url(img/Omen.jpg);
-  background-size: 21.4rem;
-  background-position: center;
-  background-position-y: -15px;
 }
 .child-5:hover {
   transform: rotate(1turn);
 }
 .child-6 {
   background-image: url(img/Cypher.jpg);
-  background-size: 21.4rem;
-  background-position: center;
-  background-position-y: -15px;
 }
 .child-6:hover {
   transform: skew(0deg, 10deg);
 }
 .child-7 {
   background-image: url(img/Raze.jpg);
-  background-size: 21.4rem;
-  background-position: center;
-  background-position-y: -15px;
 }
 .child-7:hover {
   transform: skew(0deg, -10deg);
 }
 .child-8 {
   background-image: url(img/Viper.jpg);
-  background-size: 21.4rem;
-  background-position: center;
-  background-position-y: -15px;
 }
 .child-8:hover {
   transform: rotate(1turn);
 }
 .child-9 {
   background-image: url(img/Killjoy.jpg);
-  background-size: 21.4rem;
-  background-position: center;
-  background-position-y: -15px;
 }
 .child-9:hover {
   transform: skew(0deg, 10deg);
