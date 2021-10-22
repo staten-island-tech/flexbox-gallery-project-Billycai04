@@ -19,7 +19,7 @@ body {
     opacity: 1;
   }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 375px) {
   body {
     background-color: mediumpurple;
   }
@@ -27,7 +27,7 @@ body {
     flex-direction: column;
   }
 }
-@media screen and (min-width: 426px) and (max-width: 768px){
+@media screen and (min-width: 376px) and (max-width: 768px) {
   body {
     background-color: paleturquoise;
   }
@@ -72,7 +72,7 @@ body {
   font-family: "Lato", sans-serif;
 }
 .child {
-  width: 16%;
+  width: 15.2%;
   height: 63rem;
   border-radius: 15px;
   border: 5px solid crimson;
@@ -81,8 +81,7 @@ body {
   transition: all 0.5s;
   background-size: 28rem;
   background-position: center;
-  background-position-y: -10px;
- 
+  background-position-y: -18.5px;
 }
 .child:hover {
   outline: 0.5rem solid gold;
