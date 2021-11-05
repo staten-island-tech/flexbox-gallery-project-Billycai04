@@ -19,27 +19,7 @@ body {
     opacity: 1;
   }
 }
-@media screen and (max-width: 375px) {
-  body {
-    background-color: mediumpurple;
-  }
-  .parent {
-    flex-direction: column;
-  }
-}
-@media screen and (min-width: 376px) and (max-width: 768px) {
-  body {
-    background-color: paleturquoise;
-  }
-  .parent {
-    flex-direction: column;
-  }
-}
-@media screen and (min-width: 769px) and (max-width: 1440px) {
-  body {
-    background-color: darkturquoise;
-  }
-}
+
 .title {
   margin-top: 20px;
   font-size: 7.5rem;
@@ -72,7 +52,7 @@ body {
   font-family: "Lato", sans-serif;
 }
 .child {
-  width: 15.2%;
+  width: 20.2%;
   height: 63rem;
   border-radius: 15px;
   border: 5px solid crimson;
@@ -144,4 +124,28 @@ body {
 }
 .child-9:hover {
   transform: skew(0deg, 10deg);
+}
+@media screen and (max-width: 375px) {
+  body {
+    background-color: mediumpurple;
+  }
+  .parent {
+    flex-direction: column;
+  }
+  .child {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 376px) and (max-width: 768px) {
+  body {
+    background-color: paleturquoise;
+  }
+  .parent {
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+  body {
+    background-color: darkturquoise;
+  }
 }
