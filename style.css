@@ -129,7 +129,9 @@ body {
   body {
     background-color: mediumpurple;
   }
-  
+  .parent {
+    flex-direction: column;
+  }
 }
 @media screen and (min-width: 376px) and (max-width: 768px) {
   body {
