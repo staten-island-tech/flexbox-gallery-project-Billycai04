@@ -122,23 +122,16 @@ body {
 .child-9:hover {
   transform: skew(0deg, 10deg);
 }
-@media screen and (max-width: 375px) {
-  body {
-    background-color: mediumpurple;
-  }
-  .parent {
-    flex-direction: column;
-  }
-  .child {
-    margin-top: 30px;
-  }
-}
+
 @media screen and (min-width: 376px) and (max-width: 768px) {
   body {
     background-color: paleturquoise;
   }
   .parent {
     flex-direction: column;
+  }
+  .child {
+    margin-top: 75px;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1440px) {
