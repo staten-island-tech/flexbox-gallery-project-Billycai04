@@ -127,15 +127,25 @@ body {
   body {
     background-color: paleturquoise;
   }
+  .title {
+    color: violet;
+  }
   .parent {
     flex-direction: column;
   }
   .child {
     margin-top: 75px;
+    border: 5px solid violet;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1440px) {
   body {
     background-color: darkturquoise;
+  }
+  .title {
+    color: purple;
+  }
+  .child {
+    border: 5px solid purple;
   }
 }
