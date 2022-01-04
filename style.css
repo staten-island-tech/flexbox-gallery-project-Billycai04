@@ -68,9 +68,6 @@ body {
   outline-offset: 0.2rem;
 }
 
-.all:hover .child:not(:hover) {
-  opacity: 0.3;
-}
 .child-1 {
   background-image: url(img/Jett.jpg);
 }
@@ -131,6 +128,9 @@ body {
   }
   .parent {
     flex-direction: column;
+  }
+  .child {
+    margin-top: 30px;
   }
 }
 @media screen and (min-width: 376px) and (max-width: 768px) {
